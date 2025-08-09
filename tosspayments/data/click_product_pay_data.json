@@ -1,0 +1,11 @@
+{
+  "payment_button": {
+    "id": "",
+    "css": "",
+    "xpath": "//button[contains(normalize-space(.), '결제') or contains(normalize-space(.), 'Pay')]"
+  },
+  "post_click": {
+    "wait_seconds": 8,
+    "expect_text_contains": "결제"
+  }
+}
